@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">Coroutines Example</string>
+    <string name="label_button_search">Buscar</string>
+    <string name="label_cep">CEP</string>
 </resources>

@@ -26,4 +26,8 @@ object RetrofitGenerator {
             MoshiConverterFactory.create(moshi)
         )
         .build()
+
+    val viaCepService by lazy {
+        retrofit.create<ViaCepService>()
+    }
 }
